@@ -1,0 +1,1264 @@
+//this is some of the terminal history
+//sept 29th
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 1
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 1
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 1
+steps 0
+1 -1 -1 -1 -1 
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 4
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 5
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 1
+steps 1
+2 -1 -1 -1 -1 
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 33
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 1
+steps 1
+Enter a number between 0 and 100 (-1 to terminate): 3
+steps 0
+3 -1 -1 -1 -1 
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 1
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 1
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 4
+steps 0
+1 -1 -1 -1 -1 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ 
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 2
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 3
+steps 0
+Enter a number between 0 and 100 (-1 to terminate): 4
+steps 0
+2 -1 -1 -1 -1 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+FindMMM.cpp:81:15: error: expected ‘,’ or ‘...’ before ‘this’
+   81 | void swap(int this[], int that[]){
+      |               ^~~~
+FindMMM.cpp: In function ‘void swap(int)’:
+FindMMM.cpp:82:14: error: invalid use of ‘this’ in non-member function
+   82 |   int temp = this;
+      |              ^~~~
+FindMMM.cpp:83:3: error: invalid use of ‘this’ in non-member function
+   83 |   this = that;
+      |   ^~~~
+FindMMM.cpp:83:10: error: ‘that’ was not declared in this scope
+   83 |   this = that;
+      |          ^~~~
+make: *** [makefile:5: FindMMM] Error 1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+FindMMM.cpp: In function ‘void swapPrevious(int*, int)’:
+FindMMM.cpp:83:16: error: ‘number’ was not declared in this scope; did you mean ‘numbers’?
+   83 |   numbers[I] = number[I - 1];
+      |                ^~~~~~
+      |                numbers
+make: *** [makefile:5: FindMMM] Error 1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+2 1 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+2 1 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ ./FindMMM
+sh: ./FindMMM: No such file or directory
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 1
+2 1 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 1
+1 2 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 1
+1 2 3 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 4
+1 2 3 4 5 
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+1 1 1 1 1 
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+1 2 4 5 -1 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ ./FindMMM
+sh: ./FindMMM: No such file or directory
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): -1
+
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): -1
+1 2 5 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+FindMMM.cpp: In function ‘void printArray(int*, int)’:
+FindMMM.cpp:59:24: error: no match for ‘operator<<’ (operand types are ‘std::basic_ostream<char>’ and ‘std::ostream’ {aka ‘std::basic_ostream<char>’})
+   59 |     cout << numbers[i] << cout << " ";
+      |     ~~~~~~~~~~~~~~~~~~ ^~ ~~~~
+      |          |                |
+      |          |                basic_ostream<[...]>
+      |          basic_ostream<[...]>
+FindMMM.cpp:59:24: note: candidate: ‘operator<<(int, int)’ (built-in)
+   59 |     cout << numbers[i] << cout << " ";
+      |     ~~~~~~~~~~~~~~~~~~~^~~~~~~
+FindMMM.cpp:59:24: note:   no known conversion for argument 2 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘int’
+In file included from /usr/include/c++/13.2.0/istream:41,
+                 from /usr/include/c++/13.2.0/sstream:40,
+                 from /usr/include/c++/13.2.0/bits/quoted_string.h:38,
+                 from /usr/include/c++/13.2.0/iomanip:47,
+                 from FindMMM.cpp:45:
+/usr/include/c++/13.2.0/ostream:110:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(__ostream_type& (*)(__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  110 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:110:36: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)’ {aka ‘std::basic_ostream<char>& (*)(std::basic_ostream<char>&)’}
+  110 |       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+      |                  ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13.2.0/ostream:119:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(__ios_type& (*)(__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; __ios_type = std::basic_ios<char>]’
+  119 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:119:32: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)’ {aka ‘std::basic_ios<char>& (*)(std::basic_ios<char>&)’}
+  119 |       operator<<(__ios_type& (*__pf)(__ios_type&))
+      |                  ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+/usr/include/c++/13.2.0/ostream:129:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  129 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:129:30: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘std::ios_base& (*)(std::ios_base&)’
+  129 |       operator<<(ios_base& (*__pf) (ios_base&))
+      |                  ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+/usr/include/c++/13.2.0/ostream:168:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  168 |       operator<<(long __n)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:168:23: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘long int’
+  168 |       operator<<(long __n)
+      |                  ~~~~~^~~
+/usr/include/c++/13.2.0/ostream:172:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  172 |       operator<<(unsigned long __n)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:172:32: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘long unsigned int’
+  172 |       operator<<(unsigned long __n)
+      |                  ~~~~~~~~~~~~~~^~~
+/usr/include/c++/13.2.0/ostream:176:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  176 |       operator<<(bool __n)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:176:23: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘bool’
+  176 |       operator<<(bool __n)
+      |                  ~~~~~^~~
+In file included from /usr/include/c++/13.2.0/ostream:880:
+/usr/include/c++/13.2.0/bits/ostream.tcc:96:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]’
+   96 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13.2.0/bits/ostream.tcc:97:22: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘short int’
+   97 |     operator<<(short __n)
+      |                ~~~~~~^~~
+/usr/include/c++/13.2.0/ostream:183:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  183 |       operator<<(unsigned short __n)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:183:33: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘short unsigned int’
+  183 |       operator<<(unsigned short __n)
+      |                  ~~~~~~~~~~~~~~~^~~
+/usr/include/c++/13.2.0/bits/ostream.tcc:110:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]’
+  110 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13.2.0/bits/ostream.tcc:111:20: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘int’
+  111 |     operator<<(int __n)
+      |                ~~~~^~~
+/usr/include/c++/13.2.0/ostream:194:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  194 |       operator<<(unsigned int __n)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:194:31: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘unsigned int’
+  194 |       operator<<(unsigned int __n)
+      |                  ~~~~~~~~~~~~~^~~
+/usr/include/c++/13.2.0/ostream:203:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  203 |       operator<<(long long __n)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:203:28: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘long long int’
+  203 |       operator<<(long long __n)
+      |                  ~~~~~~~~~~^~~
+/usr/include/c++/13.2.0/ostream:207:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  207 |       operator<<(unsigned long long __n)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:207:37: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘long long unsigned int’
+  207 |       operator<<(unsigned long long __n)
+      |                  ~~~~~~~~~~~~~~~~~~~^~~
+/usr/include/c++/13.2.0/ostream:222:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  222 |       operator<<(double __f)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:222:25: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘double’
+  222 |       operator<<(double __f)
+      |                  ~~~~~~~^~~
+/usr/include/c++/13.2.0/ostream:226:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  226 |       operator<<(float __f)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:226:24: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘float’
+  226 |       operator<<(float __f)
+      |                  ~~~~~~^~~
+/usr/include/c++/13.2.0/ostream:234:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  234 |       operator<<(long double __f)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:234:30: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘long double’
+  234 |       operator<<(long double __f)
+      |                  ~~~~~~~~~~~~^~~
+/usr/include/c++/13.2.0/ostream:292:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>]’
+  292 |       operator<<(const void* __p)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:292:30: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘const void*’
+  292 |       operator<<(const void* __p)
+      |                  ~~~~~~~~~~~~^~~
+/usr/include/c++/13.2.0/ostream:297:7: note: candidate: ‘std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; __ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]’
+  297 |       operator<<(nullptr_t)
+      |       ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:297:18: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘std::nullptr_t’
+  297 |       operator<<(nullptr_t)
+      |                  ^~~~~~~~~
+/usr/include/c++/13.2.0/bits/ostream.tcc:124:5: note: candidate: ‘std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; __streambuf_type = std::basic_streambuf<char>]’
+  124 |     basic_ostream<_CharT, _Traits>::
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13.2.0/bits/ostream.tcc:125:34: note:   no known conversion for argument 1 from ‘std::ostream’ {aka ‘std::basic_ostream<char>’} to ‘std::basic_ostream<char>::__streambuf_type*’ {aka ‘std::basic_streambuf<char>*’}
+  125 |     operator<<(__streambuf_type* __sbin)
+      |                ~~~~~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/c++/13.2.0/bits/basic_string.h:47,
+                 from /usr/include/c++/13.2.0/string:54,
+                 from /usr/include/c++/13.2.0/bits/locale_classes.h:40,
+                 from /usr/include/c++/13.2.0/bits/ios_base.h:41,
+                 from /usr/include/c++/13.2.0/iomanip:42:
+/usr/include/c++/13.2.0/string_view:760:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, basic_string_view<_CharT, _Traits>)’
+  760 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/string_view:760:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   ‘std::basic_ostream<char>’ is not derived from ‘std::basic_string_view<_CharT, _Traits>’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/bits/basic_string.h:4020:5: note: candidate: ‘template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const __cxx11::basic_string<_CharT, _Traits, _Allocator>&)’
+ 4020 |     operator<<(basic_ostream<_CharT, _Traits>& __os,
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/bits/basic_string.h:4020:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   ‘std::ostream’ {aka ‘std::basic_ostream<char>’} is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+In file included from /usr/include/c++/13.2.0/bits/memory_resource.h:38,
+                 from /usr/include/c++/13.2.0/string:58:
+/usr/include/c++/13.2.0/cstddef:124:5: note: candidate: ‘template<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(byte, _IntegerType)’
+  124 |     operator<<(byte __b, _IntegerType __shift) noexcept
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/cstddef:124:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:10: note:   cannot convert ‘std::cout.std::basic_ostream<char>::operator<<((*(numbers + ((sizetype)(((long unsigned int)i) * 4)))))’ (type ‘std::basic_ostream<char>’) to type ‘std::byte’
+   59 |     cout << numbers[i] << cout << " ";
+      |     ~~~~~^~~~~~~~~~~~~
+In file included from /usr/include/c++/13.2.0/bits/ios_base.h:46:
+/usr/include/c++/13.2.0/system_error:339:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const error_code&)’
+  339 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/system_error:339:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘const std::error_code&’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/ostream:554:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _CharT)’
+  554 |     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:554:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   deduced conflicting types for parameter ‘_CharT’ (‘char’ and ‘std::basic_ostream<char>’)
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/ostream:564:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, char)’
+  564 |     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:564:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘char’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/ostream:570:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, char)’
+  570 |     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:570:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘char’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/ostream:581:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, signed char)’
+  581 |     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:581:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘signed char’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/ostream:586:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, unsigned char)’
+  586 |     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:586:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘unsigned char’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/ostream:645:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const _CharT*)’
+  645 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:645:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   mismatched types ‘const _CharT*’ and ‘std::basic_ostream<char>’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/bits/ostream.tcc:307:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, const char*)’
+  307 |     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/bits/ostream.tcc:307:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘const char*’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/ostream:662:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const char*)’
+  662 |     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:662:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘const char*’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/ostream:675:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const signed char*)’
+  675 |     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:675:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘const signed char*’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/ostream:680:5: note: candidate: ‘template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(basic_ostream<char, _Traits>&, const unsigned char*)’
+  680 |     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:680:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘const unsigned char*’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/ostream:801:5: note: candidate: ‘template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)’
+  801 |     operator<<(_Ostream&& __os, const _Tp& __x)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/ostream:801:5: note:   template argument deduction/substitution failed:
+/usr/include/c++/13.2.0/ostream: In substitution of ‘template<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::basic_ostream<char>]’:
+FindMMM.cpp:59:27:   required from here
+/usr/include/c++/13.2.0/ostream:801:5: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+/usr/include/c++/13.2.0/iomanip:81:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Resetiosflags)’
+   81 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/iomanip:81:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘std::_Resetiosflags’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/iomanip:111:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setiosflags)’
+  111 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/iomanip:111:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘std::_Setiosflags’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/iomanip:145:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setbase)’
+  145 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/iomanip:145:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘std::_Setbase’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/iomanip:180:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setfill<_CharT>)’
+  180 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/iomanip:180:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   ‘std::basic_ostream<char>’ is not derived from ‘std::_Setfill<_CharT>’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/iomanip:210:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setprecision)’
+  210 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/iomanip:210:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘std::_Setprecision’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/iomanip:240:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Setw)’
+  240 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/iomanip:240:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   cannot convert ‘std::cout’ (type ‘std::ostream’ {aka ‘std::basic_ostream<char>’}) to type ‘std::_Setw’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/iomanip:313:5: note: candidate: ‘template<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Put_money<_MoneyT>)’
+  313 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/iomanip:313:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   ‘std::basic_ostream<char>’ is not derived from ‘std::_Put_money<_MoneyT>’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+/usr/include/c++/13.2.0/iomanip:365:5: note: candidate: ‘template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(basic_ostream<_CharT, _Traits>&, _Put_time<_CharT>)’
+  365 |     operator<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)
+      |     ^~~~~~~~
+/usr/include/c++/13.2.0/iomanip:365:5: note:   template argument deduction/substitution failed:
+FindMMM.cpp:59:27: note:   ‘std::basic_ostream<char>’ is not derived from ‘std::_Put_time<_CharT>’
+   59 |     cout << numbers[i] << cout << " ";
+      |                           ^~~~
+make: *** [makefile:5: FindMMM] Error 1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): -1
+1 2 3 4 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): -^[[F
+Enter a number between 0 and 100 (-1 to terminate): Enter a number between 0 and 100 (-1 to terminate): Enter a number between 0 and 100 (-1 to terminate): Enter a number between 0 and 100 (-1 to terminate):    Mean Median   Mode
+     43     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): -^[[F
+Enter a number between 0 and 100 (-1 to terminate): Enter a number between 0 and 100 (-1 to terminate): Enter a number between 0 and 100 (-1 to terminate): Enter a number between 0 and 100 (-1 to terminate):    Mean Median   Mode
+     43     34     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): -1
+sh-5.2$ make FindMMM
+make: 'FindMMM' is up to date.
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+     43     34     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+     43     34     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): -1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+   Mean Median   Mode
+      3     34     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+   Mean Median   Mode
+      3     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ make FindMMM
+make: 'FindMMM' is up to date.
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 6
+   Mean Median   Mode
+      5     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+FindMMM.cpp: In function ‘float calculateMean(const int*, int)’:
+FindMMM.cpp:96:13: error: expected ‘;’ before ‘round’
+   96 |   return 1.0 round(sum / POPULATION);
+      |             ^~~~~~
+      |             ;
+make: *** [makefile:5: FindMMM] Error 1
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 6
+   Mean Median   Mode
+      4     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 6
+   Mean Median   Mode
+      4     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 6
+   Mean Median   Mode
+      4     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ 3
+sh: 3: command not found
+sh-5.2$ 3
+sh: 3: command not found
+sh-5.2$ 3
+sh: 3: command not found
+sh-5.2$ 4
+sh: 4: command not found
+sh-5.2$ 5
+sh: 5: command not found
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+   Mean Median   Mode
+      4     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 5
+   Mean Median   Mode
+      3     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 
+3
+Enter a number between 0 and 100 (-1 to terminate): 5
+   Mean Median   Mode
+      3     34     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+   Mean Median   Mode
+      1     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+   Mean Median   Mode
+      3     34     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+   Mean Median   Mode
+      1     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+   Mean Median   Mode
+      1     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+   Mean Median   Mode
+1     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+   Mean Median   Mode
+      1     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+FindMMM.cpp: In function ‘void displayMMM(const int*, int)’:
+FindMMM.cpp:115:11: error: ‘setp’ was not declared in this scope
+  115 |   cout << setp(WIDTH) << (float)MEAN  << setw(WIDTH) << MEDIAN   << setw(WIDTH) << MODE   << endl;
+      |           ^~~~
+make: *** [makefile:5: FindMMM] Error 1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 2
+the mean is 2   Mean Median   Mode
+      2     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 4
+the mean is 2
+   Mean Median   Mode
+      2     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+^[[Ash-5./FindMMMlean
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 5
+the mean is 3
+   Mean Median   Mode
+      3     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+^[[Ash-5make FindMMMn
+make: 'FindMMM' is up to date.
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+the mean is 3
+   Mean Median   Mode
+      3     34     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+the mean is 1.2
+   Mean Median   Mode
+    1.2     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+   Mean Median   Mode
+      1     34     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 2
+   Mean Median   Mode
+      2     34     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+   Mean Median   Mode
+      4     34     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): -1
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      5     34     11
+sh-5.2$ ^C
+sh-5.2$ 
+// sept 30th
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      2      2     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      3      4     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      3      2     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      4      3     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ make FindMMM
+make: 'FindMMM' is up to date.
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      3      2     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      4      3     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      3      2     11
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      4      3     11
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      4    3.5     11
+sh-5.2$ 
+//october 1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+FindMMM.cpp: In function ‘int calculateMode(const int*, int)’:
+FindMMM.cpp:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+  122 | }
+      | ^
+sh-5.2$ make FindMMM
+make: 'FindMMM' is up to date.
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+FindMMM.cpp: In function ‘int calculateMode(const int*, int)’:
+FindMMM.cpp:121:10: error: ‘null’ was not declared in this scope
+  121 |   return null;
+      |          ^~~~
+make: *** [makefile:5: FindMMM] Error 1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+FindMMM.cpp: In function ‘int calculateMode(const int*, int)’:
+FindMMM.cpp:121:10: warning: converting to non-pointer type ‘int’ from NULL [-Wconversion-null]
+  121 |   return NULL;
+      |          ^~~~
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+FindMMM.cpp: In function ‘int calculateMode(const int*, int)’:
+FindMMM.cpp:119:54: error: expected ‘;’ before ‘cout’
+  119 |     if(frequency[i] == greatestOccurance) cout << " " cout<< i;
+      |                                                      ^~~~~
+      |                                                      ;
+make: *** [makefile:5: FindMMM] Error 1
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+ 4   Mean Median   Mode
+      3      3sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): -1
+ 4   Mean Median   Mode
+      3    3.5sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+ 4
+   Mean Median   Mode
+      3      3sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+FindMMM.cpp: In function ‘void displayMMM(const int*, int)’:
+FindMMM.cpp:128:33: error: void value not ignored as it ought to be
+  128 |   const int MODE = calculateMode(NUMBERS, POPULATION);
+      |                    ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+make: *** [makefile:5: FindMMM] Error 1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      3      3 4
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ make FindMMM
+make: 'FindMMM' is up to date.
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      3      3       4
+sh-5.2$ make FindMMM
+make: 'FindMMM' is up to date.
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ make FindMMM
+make: 'FindMMM' is up to date.
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      3      3   4
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      3      3    4
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      3      4    4 5
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 6
+Enter a number between 0 and 100 (-1 to terminate): 6
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      4      4    4 5 6
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 6
+Enter a number between 0 and 100 (-1 to terminate): 6
+Enter a number between 0 and 100 (-1 to terminate): -1
+   Mean Median   Mode
+      4      4    4 5 6
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 6
+    Mean  Median    Mode
+       4       4     4 5
+sh-5.2$ 6
+sh: 6: command not found
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+^[[A^[[A
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make FindMMM
+g++ -o FindMMM FindMMM.cpp
+sh-5.2$ ./FindMMM
+Welcome to FindMMM
+Enter a number between 0 and 100 (-1 to terminate): 1
+Enter a number between 0 and 100 (-1 to terminate): 2
+Enter a number between 0 and 100 (-1 to terminate): 3
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 4
+Enter a number between 0 and 100 (-1 to terminate): 5
+Enter a number between 0 and 100 (-1 to terminate): 6
+Enter a number between 0 and 100 (-1 to terminate): 7
+Enter a number between 0 and 100 (-1 to terminate): 8
+Enter a number between 0 and 100 (-1 to terminate): 9
+    Mean  Median    Mode
+       5     4.5    4
+sh-5.2$ 

@@ -1,0 +1,281 @@
+//this is some of the terminal history
+//sept 29th
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+AbundantNumbers.cpp: In function ‘int getInput()’:
+AbundantNumbers.cpp:44:17: error: ‘FLAG’ was not declared in this scope
+   44 |     if (input < FLAG ) {
+      |                 ^~~~
+make: *** [makefile:2: AbundantNumbers] Error 1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 1
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): -1
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): -2
+Invalid number was entered. must be between 0 and 100. 
+Enter a number (-1 to quit): ^[[A
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): -4
+Enter a number (-1 to quit): -5
+Enter a number (-1 to quit): -6
+Enter a number (-1 to quit): 1
+Enter a number (-1 to quit): 2
+Enter a number (-1 to quit): 3
+Enter a number (-1 to quit): 4
+Enter a number (-1 to quit): 5
+Enter a number (-1 to quit): 6
+Enter a number (-1 to quit): 7
+Enter a number (-1 to quit): ^Z
+[1]+  Stopped(SIGTSTP)        ./AbundantNumbers
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): -5
+Enter a number (-1 to quit): -6
+Enter a number (-1 to quit): -7
+Enter a number (-1 to quit): 0
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): -1
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 5
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+-1 -1 -1 -1 -1 
+Enter a number (-1 to quit): 0
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ ./AbundantNumbers
+sh: ./AbundantNumbers: No such file or directory
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+AbundantNumbers.cpp: In function ‘int main()’:
+AbundantNumbers.cpp:67:38: error: ‘pop’ was not declared in this scope; did you mean ‘popen’?
+   67 |   for(population, population < SIZE; pop++){
+      |                                      ^~~
+      |                                      popen
+AbundantNumbers.cpp:67:43: error: expected ‘;’ before ‘)’ token
+   67 |   for(population, population < SIZE; pop++){
+      |                                           ^
+      |                                           ;
+AbundantNumbers.cpp:69:8: error: ‘input’ was not declared in this scope; did you mean ‘int’?
+   69 |     if(input == FLAG) break;
+      |        ^~~~~
+      |        int
+AbundantNumbers.cpp:72:23: error: ‘POPULATION’ was not declared in this scope
+   72 |   printArray(numbers, POPULATION);
+      |                       ^~~~~~~~~~
+make: *** [makefile:2: AbundantNumbers] Error 1
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+AbundantNumbers.cpp: In function ‘int main()’:
+AbundantNumbers.cpp:67:38: error: ‘pop’ was not declared in this scope; did you mean ‘popen’?
+   67 |   for(population, population < SIZE; pop++){
+      |                                      ^~~
+      |                                      popen
+AbundantNumbers.cpp:67:43: error: expected ‘;’ before ‘)’ token
+   67 |   for(population, population < SIZE; pop++){
+      |                                           ^
+      |                                           ;
+AbundantNumbers.cpp:69:8: error: ‘input’ was not declared in this scope; did you mean ‘int’?
+   69 |     if(input == FLAG) break;
+      |        ^~~~~
+      |        int
+make: *** [makefile:2: AbundantNumbers] Error 1
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+AbundantNumbers.cpp: In function ‘int main()’:
+AbundantNumbers.cpp:67:38: error: ‘pop’ was not declared in this scope; did you mean ‘popen’?
+   67 |   for(population, population < SIZE; pop++){
+      |                                      ^~~
+      |                                      popen
+AbundantNumbers.cpp:67:43: error: expected ‘;’ before ‘)’ token
+   67 |   for(population, population < SIZE; pop++){
+      |                                           ^
+      |                                           ;
+make: *** [makefile:2: AbundantNumbers] Error 1
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+AbundantNumbers.cpp: In function ‘int main()’:
+AbundantNumbers.cpp:67:50: error: expected ‘;’ before ‘)’ token
+   67 |   for(population, population < SIZE; population++){
+      |                                                  ^
+      |                                                  ;
+make: *** [makefile:2: AbundantNumbers] Error 1
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ make AbundantNumbers\
+> 444
+make: *** No rule to make target 'AbundantNumbers444'.  Stop.
+sh-5.2$ make AbundantNumbers
+make: 'AbundantNumbers' is up to date.
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 1
+Enter a number (-1 to quit): 2
+Enter a number (-1 to quit): 3
+Enter a number (-1 to quit): 4
+Enter a number (-1 to quit): 5
+1 2 3 4 5 
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 1
+Enter a number (-1 to quit): 2
+Enter a number (-1 to quit): 3
+Enter a number (-1 to quit): -1
+1 2 3 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 12
+Enter a number (-1 to quit): -1
+12 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 12
+1 2 3 4 6 Enter a number (-1 to quit): -1
+12 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+AbundantNumbers.cpp: In function ‘int sumFactors(int)’:
+AbundantNumbers.cpp:62:3: error: ‘sum’ was not declared in this scope
+   62 |   sum = 0;
+      |   ^~~
+make: *** [makefile:2: AbundantNumbers] Error 1
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 12
+16Enter a number (-1 to quit): 
+//oct 1
+sh-5.2$ cd LabNumbers/AbundantNumbers.cpp
+sh: cd: LabNumbers/AbundantNumbers.cpp: Not a directory
+sh-5.2$ cd LabNumbers/AbundantNumbers
+sh: cd: LabNumbers/AbundantNumbers: No such file or directory
+sh-5.2$ cd LabNumbers
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+AbundantNumbers.cpp: In function ‘void printResult(const int*, int)’:
+AbundantNumbers.cpp:70:81: error: expected ‘;’ before ‘}’ token
+   70 |     if(NUMBER == sumFactors(NUMBER)) cout << NUMBER <<  "is a perfect number.\n"
+      |                                                                                 ^
+      |                                                                                 ;
+   71 |   }
+      |   ~                                                                              
+make: *** [makefile:2: AbundantNumbers] Error 1
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+AbundantNumbers.cpp: In function ‘void printResult(const int*, int)’:
+AbundantNumbers.cpp:70:81: error: expected ‘;’ before ‘}’ token
+   70 |     if(NUMBER == sumFactors(NUMBER)) cout << NUMBER <<  "is a perfect number.\n"
+      |                                                                                 ^
+      |                                                                                 ;
+   71 |   }
+      |   ~                                                                              
+make: *** [makefile:2: AbundantNumbers] Error 1
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 6
+Enter a number (-1 to quit): -1
+6 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 6
+Enter a number (-1 to quit): -1
+6is a perfect number.
+6 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 12
+Enter a number (-1 to quit): 14
+Enter a number (-1 to quit): 6
+Enter a number (-1 to quit): -1
+12 is a deficient number.
+14 is an abundant number.
+6 is a perfect number.
+12 14 6 
+sh-5.2$ make clean
+rm -f AbundantNumbers
+rm -f FindMMM
+sh-5.2$ make AbundantNumbers
+g++ -o AbundantNumbers AbundantNumbers.cpp
+sh-5.2$ ./AbundantNumbers
+Welcome to AbundantNumbers
+Enter a number (-1 to quit): 12
+Enter a number (-1 to quit): 14
+Enter a number (-1 to quit): 6
+Enter a number (-1 to quit): -1
+12 is an abundant number.
+14 is a deficient number.
+6 is a perfect number.
+12 14 6 
+sh-5.2$ 
